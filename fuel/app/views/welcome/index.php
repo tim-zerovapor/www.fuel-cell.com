@@ -65,8 +65,10 @@
 					<li><a href="http://github.com/fuel/fuel">GitHub Respository</a></li>
 					<li><a href="http://fuelphp.com/contribute/issue-tracker">Issue Tracker</a></li>
 				</ul>
+
 			</div>
 		</div>
+		<script src="https://gist.github.com/3754083.js"> </script>
 		<hr/>
 		<footer>
 			<p class="pull-right">Page rendered in {exec_time}s using {mem_usage}mb of memory.</p>
@@ -78,3 +80,5 @@
 	</div>
 </body>
 </html>
+
+php oil g scaffold type name:string downloadLink:text category:int[3] gist:string[80]  about:text howTo:text tags:text version:string[80] howToGist:string[80]
