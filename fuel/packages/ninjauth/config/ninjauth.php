@@ -9,7 +9,7 @@ return array(
 	 * 
 	 * NinjAuth can use different adapters, so it will work with 'auth', 'sentry' or 'warden'.
 	 */
-	'adapter' => 'SimpleAuth',
+	'adapter' => 'warden',
 
 	/**
 	 * Providers
@@ -26,8 +26,8 @@ return array(
 		),
 		
 		'twitter' => array(
-			'key' => '',
-			'secret' => '',
+			'key' => 'XECUAVrwGr1TyL2533L2g',
+			'secret' => 'kw0yNS1jlhuYKvbaLWPoo6ooh4snPyheUE2C6OFC6Gg',
 		),
 
 		'dropbox' => array(
