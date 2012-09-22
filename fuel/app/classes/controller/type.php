@@ -59,7 +59,9 @@ class Controller_Type extends Controller_Template
 			}
 		}
 
-		$this->template->title = "Types";
+		//  load ckeditor 
+		Package::load('ckeditor');
+		$this->template->title = "Create  A New Fuel Type";
 		$this->template->content = View::forge('type/create');
 
 	}
