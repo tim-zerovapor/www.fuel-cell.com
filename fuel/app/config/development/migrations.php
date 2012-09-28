@@ -6,8 +6,7 @@ return array(
 		array(
 			'default' => 
 			array(
-				0 => '001_create_users',
-				1 => '002_create_types',
+				0 => '003_create_homes',
 			),
 		),
 		'module' => 

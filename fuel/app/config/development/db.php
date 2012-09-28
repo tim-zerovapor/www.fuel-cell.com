@@ -8,7 +8,7 @@ return array(
 		'connection'  => array(
 			'dsn'        => 'mysql:host=localhost;dbname=fuel_cell',
 			'username'   => 'root',
-			'password'   => '',
+			'password'   => 'mysql',
 			'compress' => false,
 		),
 	),

@@ -1,7 +1,7 @@
 <?php
 return array(
 	'lifetime' => 1209600,
-	'default_role' => 'member',
+	'default_role' => 'Member',
 	'profilable' => false,
 	'trackable' => false,
 	'recoverable' => 

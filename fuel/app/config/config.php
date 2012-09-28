@@ -225,7 +225,7 @@ return array(
 		 * );
 		 */
 		'packages'  => array(
-			'ninjauth','oauth', 'orm','oauth2','warden','email'
+			'ninjauth','oauth', 'orm','oauth2','warden','email','parser'
 		),
 
 		/**

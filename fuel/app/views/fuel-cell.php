@@ -50,6 +50,7 @@
                       <input type="text" class="search-query" placeholder="Search">
                   </form>
               </li>
+              <li> <?php echo $userName; ?></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
